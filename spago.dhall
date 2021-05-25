@@ -1,8 +1,7 @@
 { name = "pathy"
+, backend = "purerl"
 , dependencies =
   [ "arrays"
-  , "console"
-  , "effect"
   , "either"
   , "exceptions"
   , "foldable-traversable"
@@ -15,7 +14,6 @@
   , "partial"
   , "prelude"
   , "psci-support"
-  , "quickcheck"
   , "strings"
   , "tailrec"
   , "tuples"
@@ -23,5 +21,5 @@
   , "unsafe-coerce"
   ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }
