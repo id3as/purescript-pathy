@@ -12,6 +12,18 @@ Bugfixes:
 
 Other improvements:
 
+## [v9.0.0](https://github.com/purescript-contrib/purescript-pathy/releases/tag/v9.0.0) - 2022-04-27
+
+Breaking changes:
+- Update project and deps to PureScript v0.15.0 (#50 by @JordanMartinez)
+
+New features:
+
+Bugfixes:
+
+Other improvements:
+- Added `purs-tidy` formatter (#49 by @thomashoneyman)
+
 ## [v8.1.0](https://github.com/purescript-contrib/purescript-pathy/releases/tag/v8.1.0) - 2021-05-06
 
 New features:
