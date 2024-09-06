@@ -37,7 +37,7 @@ sandbox root = map (SandboxedPath root) <<< onRelOrAbs (go (root </> _)) (go ide
     else Just (coe p)
 
   goesUp :: forall x y. Path x y -> Boolean
-  goesUp = foldPath false (const true) (\p _ -> goesUp p)
+  goesUp p = foldPath false (const true) (\p _ -> goesUp p) p
 
 -- | Sandboxes any path to `/`.
 -- |
