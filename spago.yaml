@@ -1,23 +1,22 @@
 package:
   name: pathy
   dependencies:
-    - "arrays"
-    - "either"
-    - "foldable-traversable"
-    - "gen"
-    - "identity"
-    - "lists"
-    - "maybe"
-    - "newtype"
-    - "nonempty"
-    - "partial"
+    - arrays
+    - either
+    - foldable-traversable
+    - gen
+    - identity
+    - lists
+    - maybe
+    - newtype
+    - nonempty
+    - partial
     - prelude
-    - "prelude"
-    - "strings"
-    - "tailrec"
-    - "tuples"
-    - "typelevel-prelude"
-    - "unsafe-coerce"
+    - strings
+    - tailrec
+    - tuples
+    - typelevel-prelude
+    - unsafe-coerce
   test:
     main: Test.Main
     dependencies: []
